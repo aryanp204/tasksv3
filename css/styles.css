@@ -1,0 +1,12 @@
+/*Aryan Patel 8836568*/
+body{
+ font: normal normal normal 12px/1.5 "Times New Roman", Times, serif;  
+ width: 100vw;
+ height: 100vh;   
+ background-color: hsla(207, 47%, 54%, 0.9);
+}
+h2{
+    color: #fff;
+    font-size: 2em;
+
+}
