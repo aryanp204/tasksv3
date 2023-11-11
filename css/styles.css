@@ -1,47 +1,101 @@
 /*Aryan Patel 8836568*/
 body{
- font: normal normal normal 12px/1.5 "Times New Roman", Times, serif;  
- width: 100vw;
- height: 100vh;   
- background-color: hsla(207, 47%, 54%, 0.9);
+    font: normal normal normal 12px/1.5 Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 210, 201);
 }
 h2{
-    color: #fff;
+    color: #f02;
     font-size: 2em;
 }
+h1 {
+    color: blueviolet;
+    font-size: 30px;
+}
 header{
-    background-color: hsl(271, 78%, 50%);
+    background-color: hsl(327, 100%, 51%);
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+nav ul li a{
+    color: rgb(108, 68, 137);
+    border: 2px solid rgb(124, 74, 160);
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 5px;
+}
+nav ul li a:hover{
+    color: cornsilk;
+    background: indigo;
+    border-color: rgb(220, 255, 239);
 }
 main{
-    float: left;
-    width: 65vw;
-    height: 60vh;
-    background-color: hsl(101, 44%, 51%);
+    float : left;
+    width :65vw;
+    height: 130vh;
+    background-color: hsl(75, 84%, 65%);
 }
 aside{
-    float: right;
-    width: 25vw;
-    height: 20vh;
-    background-color: hsl(271, 63%, 66%);
+    float : right;
+    width : 25vw;
+    height: 40vh;
+    background-color: hsl(199, 100%, 51%);
 }
+aside li{
+    list-style-type: square;
+    line-height: 2em;
+   }
+  aside a{
+    color: rgb(43, 251, 6)
+   }
 footer{
-    clear: both;
-    background-color: hsl(276, 3%, 30%);
+    clear : both;
+    background-color: hsl(10, 67%, 37%);
 }
 .structural{
-    margin:10px;
-    padding:10px;
-border: 2px solid rgb(29, 40, 110);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(184, 231, 12);
 }
 #para1{
-    color: rgb(112, 35, 82);
+     color: rgb(102, 56, 210);
 }
 #para2{
-    color: rgb(48, 70, 3);
+     color: rgb(62, 12, 88);
 }
-a:hover{
-    color: #f8f;
+
+form{
+    border: 5px dashed rgb(39, 135, 135);
+    padding: 5px;
 }
-footer  p{
-font-size: 2em;
+input[type=text], inputp[type=email] input[type=submit], select,option{
+   display : block;
+   width: 50%;
+   height: 2em;
+}
+input[type=radio], input[type=checkbox]{
+    height: 2em;
+    width: 2em;
+}
+select, option, label, legend, input[type=submit]{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+textarea{
+    display: block;
+    width: 50%;
+}
+fieldset{
+    border: none;
+}
+
+aside a:hover{
+    color: rgb(170, 255, 0);
+}
+footer p{
+    font-size: .75em;
 }
